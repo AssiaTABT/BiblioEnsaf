@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Biblio</string>
+    <string name="open">Open navigation drawer</string>
+    <string name="close">Close navigation drawer</string>
+    <string name="daysLeft">"Days Left: "</string>
+    <string-array name="filieres">
+        <item>Select your branch</item>
+        <item>INFO</item>
+        <item>MSA</item>
+        <item>GINDUS</item>
+        <item>SEII</item>
+        <item>GTR</item>
+        <item>GESI</item>
+    </string-array>
+</resources>

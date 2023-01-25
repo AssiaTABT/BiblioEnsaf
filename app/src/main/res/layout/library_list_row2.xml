@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titleRow1"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-black"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#424242"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/daysL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleRow1"
+        android:layout_alignStart="@+id/titleRow1"
+        android:layout_alignLeft="@+id/titleRow1"
+        android:layout_marginTop="15dp"
+        android:text="Days Left: "
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/daysLeft1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleRow1"
+        android:layout_alignStart="@+id/titleRow1"
+        android:layout_alignLeft="@+id/daysL"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="15dp"
+        android:text=": 7"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

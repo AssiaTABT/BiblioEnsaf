@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "873625915264",
+    "project_id": "biblio-ca7a8",
+    "storage_bucket": "biblio-ca7a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873625915264:android:f5c87d71e16542d7a1fb65",
+        "android_client_info": {
+          "package_name": "ma.ensaf.biblio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873625915264-l3o6d844qb7okhpsats8eif41c5sf2sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnTH9fARi-5cElguA3ey2d7L_0U1stj6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873625915264-l3o6d844qb7okhpsats8eif41c5sf2sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

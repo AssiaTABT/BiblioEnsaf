@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="start"
+    tools:showIn="navigation_View">
+
+        <item
+            android:id="@+id/idhome"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+
+    <item android:title="My corner">
+        <menu>
+            <item
+                android:id="@+id/favorite"
+                android:icon="@drawable/ic_favorite"
+                android:title="Favorites" />
+            <item
+            android:id="@+id/listWish"
+            android:icon="@drawable/ic_resrvation"
+            android:title="WishList" />
+            <item
+                android:id="@+id/etudiant_emprunt"
+                android:icon="@drawable/ic_emprunt"
+                android:title="Borrows" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="Catalogue">
+        <menu>
+
+            <item
+                android:id="@+id/etudiant_Parcourir"
+                android:icon="@drawable/ic_parcourir"
+                android:title="Books" />
+            <item
+                android:id="@+id/Recommendation"
+                android:icon="@drawable/ic_recommandation"
+                android:title="Recommendations" />
+        </menu>
+    </item>
+    <item android:title="LOGOUT"
+        android:id="@+id/Logout"
+        android:icon="@drawable/ic_baseline_person_remove_alt_1_24"/>
+</menu>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ma.ensaf.biblio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoapp"
+        android:label="BiblioEnsaf"
+        android:roundIcon="@drawable/logoapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Biblio">
+        <activity
+            android:name=".RegisterTeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BooksList"
+            android:exported="false" />
+        <activity
+            android:name=".SecondPage"
+            android:exported="false" />
+        <activity
+            android:name=".Recommend"
+            android:exported="false" />
+        <activity
+            android:name=".borrowList2"
+            android:exported="false" />
+        <activity
+            android:name=".Demande"
+            android:exported="false" />
+        <activity
+            android:name=".DemandeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".confirmList"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.ConfirmBorrow"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.borrowList"
+            android:exported="false" />
+        <activity
+            android:name=".WishList"
+            android:exported="false" />
+        <activity
+            android:name=".FavList"
+            android:exported="false" />
+        <activity
+            android:name=".accueil2"
+            android:exported="false" />
+        <activity
+            android:name=".Details"
+            android:exported="false" />
+        <activity
+            android:name=".FirstPage"
+            android:exported="false" />
+        <activity
+            android:name=".drawer_base"
+            android:exported="false" />
+        <activity
+            android:name=".header"
+            android:exported="false" />
+        <activity
+            android:name=".profil"
+            android:exported="false" />
+        <activity
+            android:name=".Prof"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterStudentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Accueil"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.AddCategorieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CatActivityUser"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.DetailsLivre"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.EEEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.ProfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.EtudiantsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.CategorieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.AjouterLivres"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.LivresActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".EspaceAdmin.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.App.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
